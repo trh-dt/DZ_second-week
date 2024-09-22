@@ -28,13 +28,17 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
-    padding-top: 60px 0px;
+    padding: 60px 0px;
+    background-color: #fafaff;
+    width: 1440px;
+    height: 1024px;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
     font-size: 48px;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .main-text {
@@ -45,8 +49,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    max-width: 715px;
-    height: 508px 500;
+    max-width: 715px;;
     padding-bottom: 356px;
 }
 
@@ -63,7 +66,9 @@ select {
     border-radius: 5px;
     width: 150px;
     height: 36px;
+    background: url(ep_arrow-down.svg) no-repeat right;
     background-repeat: no-repeat;
+    appearance: none;
 }
 
 .section-title {
@@ -118,7 +123,7 @@ select {
     /* Стили для линии */
     border: 1px solid rgba(48, 48, 48, 0.3);
     margin: 0px 60px;
-    
+
 }
 
 table {
