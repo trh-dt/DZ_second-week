@@ -28,12 +28,13 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
-    padding-top: 60px;
+    padding-top: 60px 0px;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
     font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -44,7 +45,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px 500;
     padding-bottom: 356px;
 }
@@ -52,7 +53,8 @@ header span {
 
 .about-section {
     /* Стили для второй секции */
-    padding-top: 100px;
+    padding: 100px 0px;
+
 }
 
 select {
@@ -61,26 +63,27 @@ select {
     border-radius: 5px;
     width: 150px;
     height: 36px;
+    background-repeat: no-repeat;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(Vector.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     width: 670px;
     height: 57px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -91,11 +94,12 @@ select {
 
 .text-field {
     /* Стили для односточного поля ввода текста */
-    width: 464px;
+    width: 330px;
     height: 36px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
     border: solid 1px #95A1BB;
+    font-size: 16px;
 }
 
 .btn {
@@ -107,13 +111,14 @@ select {
     color: #ffff;
     border: none;
     margin-bottom: 60px;
+    padding-left: 9px;
 }
 
 .line {
     /* Стили для линии */
     border: 1px solid rgba(48, 48, 48, 0.3);
-    margin-bottom: 60px;
-    width: 100hv;
+    margin: 0px 60px;
+    
 }
 
 table {
@@ -121,6 +126,7 @@ table {
     border-collapse: collapse;
     height: 196px;
     margin-bottom: 100px;
+    font-size: 14px;
 }
 
 th, td {
@@ -128,17 +134,18 @@ th, td {
     border: 1px solid #95A1BB;
     width: 130px;
     padding: 15px 0;
-    text-align: center;
+    padding: 12px 15px;
 }
 
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
     height: 70px;
-    padding-top: 25px;
+    padding: 26px 0px;
 }
 
 .footer-link {
     /* Стили для футера */
     font-size: 14px;
+    text-decoration-line: none;
 }
