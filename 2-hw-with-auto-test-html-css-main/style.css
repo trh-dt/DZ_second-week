@@ -80,6 +80,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     width: 670px;
     height: 57px;
+    padding-left: 20px;
 }
 
 .label {
